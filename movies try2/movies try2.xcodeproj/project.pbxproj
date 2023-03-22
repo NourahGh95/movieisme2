@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A121A9429C9D19600CD3791 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A121A9329C9D19600CD3791 /* CenterViewController.swift */; };
+		1A121A9629C9D1CD00CD3791 /* CenterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A121A9529C9D1CD00CD3791 /* CenterCollectionViewCell.swift */; };
 		1A59EA3429C1E36A003258DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59EA3329C1E36A003258DA /* AppDelegate.swift */; };
 		1A59EA3629C1E36A003258DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59EA3529C1E36A003258DA /* SceneDelegate.swift */; };
 		1A59EA3829C1E36A003258DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59EA3729C1E36A003258DA /* ViewController.swift */; };
@@ -16,7 +18,6 @@
 		1A59EA4B29C1E36B003258DA /* movies_try2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59EA4A29C1E36B003258DA /* movies_try2Tests.swift */; };
 		1A59EA5529C1E36B003258DA /* movies_try2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59EA5429C1E36B003258DA /* movies_try2UITests.swift */; };
 		1A59EA5729C1E36B003258DA /* movies_try2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59EA5629C1E36B003258DA /* movies_try2UITestsLaunchTests.swift */; };
-		1A59EA6429C66817003258DA /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59EA6329C66817003258DA /* CenterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A121A9329C9D19600CD3791 /* CenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		1A121A9529C9D1CD00CD3791 /* CenterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterCollectionViewCell.swift; sourceTree = "<group>"; };
 		1A59EA3029C1E36A003258DA /* movies try2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movies try2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A59EA3329C1E36A003258DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A59EA3529C1E36A003258DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +53,6 @@
 		1A59EA5029C1E36B003258DA /* movies try2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "movies try2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A59EA5429C1E36B003258DA /* movies_try2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movies_try2UITests.swift; sourceTree = "<group>"; };
 		1A59EA5629C1E36B003258DA /* movies_try2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movies_try2UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1A59EA6329C66817003258DA /* CenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +105,13 @@
 			children = (
 				1A59EA3329C1E36A003258DA /* AppDelegate.swift */,
 				1A59EA3529C1E36A003258DA /* SceneDelegate.swift */,
-				1A59EA6329C66817003258DA /* CenterViewController.swift */,
 				1A59EA3729C1E36A003258DA /* ViewController.swift */,
 				1A59EA3929C1E36A003258DA /* Main.storyboard */,
 				1A59EA3C29C1E36B003258DA /* Assets.xcassets */,
 				1A59EA3E29C1E36B003258DA /* LaunchScreen.storyboard */,
 				1A59EA4129C1E36B003258DA /* Info.plist */,
+				1A121A9329C9D19600CD3791 /* CenterViewController.swift */,
+				1A121A9529C9D1CD00CD3791 /* CenterCollectionViewCell.swift */,
 			);
 			path = "movies try2";
 			sourceTree = "<group>";
@@ -262,7 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A59EA3829C1E36A003258DA /* ViewController.swift in Sources */,
-				1A59EA6429C66817003258DA /* CenterViewController.swift in Sources */,
+				1A121A9629C9D1CD00CD3791 /* CenterCollectionViewCell.swift in Sources */,
+				1A121A9429C9D19600CD3791 /* CenterViewController.swift in Sources */,
 				1A59EA3429C1E36A003258DA /* AppDelegate.swift in Sources */,
 				1A59EA3629C1E36A003258DA /* SceneDelegate.swift in Sources */,
 			);
